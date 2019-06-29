@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Jun 29 11:25:53 CEST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-016b-a28e-2663-00000302ad60 
+on database directory C:\Users\nagy.attila\Desktop\Projects\GameStats\sampleDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5fdef03a 
+Loaded from file:/C:/Users/nagy.attila/Desktop/Projects/GameStats/gamestats.jar
+java.vendor=Oracle Corporation
+java.runtime.version=9.0.1+11
+user.dir=C:\Users\nagy.attila\Desktop\Projects\GameStats
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
