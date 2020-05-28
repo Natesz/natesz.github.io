@@ -2781,7 +2781,7 @@ input, select, textarea {
 				}
 				
 		.noDecoration, a:link, a:visited {
-    text-decoration: none;
+    text-decoration: unset;
 }
 
 		#header > nav {
