@@ -1,0 +1,147 @@
+@font-face {
+	font-family: "CustomFont";
+	src: url("fonts/VodafoneLt.ttf");
+	src: url("fonts/VodafoneLt.woff") format("woff"),
+	url("fonts/VodafoneLt.ttf") format("opentype"),
+	url("CustomFont.svg#filename") format("svg");
+	}
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px; 
+	font-family: CustomFont;
+}
+
+  body {
+	  background-color: #eee4e4;
+  }
+
+  .section-body {
+	  margin-top: 15px;
+	  height: 60vh;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-around;
+  }
+
+ .section-body-mid img {
+	  height: 20px;
+  }
+
+  .section-body-mid {
+	  margin: 15px 0px;
+  }
+
+.container {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	max-width: 1200px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+
+.header p {
+	margin-right: 30px;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+@media(max-width: 1000px){
+	.content{
+		grid-template-columns: 1fr;
+	}
+}
+
+.section {
+	background-color: white;
+}
+
+.section-header {
+	height: 120px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.section-header-left{
+	display: flex;
+	flex-direction: column;
+	background-color: purple;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	height: 100%;
+	align-items: center;
+}
+
+.section-header-rigth{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: purple;
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid purple;
+	border-bottom: 1px solid purple;
+	height: 100%;
+}
+
+.btn {
+	display: block;
+	cursor: pointer;
+	padding: 15px 20px;
+	margin: 20px;
+	font-weight: bold;
+}
+
+.btn-primary {
+	background: grey;
+	color: white;
+}
+
+.btn-secondary {
+	background: white;
+	color: black;
+	border: 1px solid grey;
+}
+
+.hide {
+	margin: 10px 0px 10px 0px;
+	background-color: rgb(221, 221, 221);
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+}
+
+.tarifa {
+	cursor: pointer;
+}
+
+.fa {
+	margin-left: 5px;
+	color: red;
+}
+
+.small {
+	font-size: 12px;
+}
+
+.icons {
+	margin: 7px 0px 13px 0px;
+}
+
+#vehicle1 {
+	margin-right: 5px;
+}
