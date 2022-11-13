@@ -1,0 +1,70 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family:consolas;
+}
+
+html{
+	background-image: url(assets/topography.jpg);
+	background-color: white;
+}
+
+
+nav {
+display: flex;
+align-items: center;
+background-color: #333333;
+justify-content: space-between;
+height: 50px;
+}
+
+.logo{margin-left:10%}
+
+ul{
+	display:flex;
+	align-items: center;
+	margin-right: 10%;
+}
+
+
+li {
+	margin-left:30px;
+display: block;
+list-style: none}
+
+a {color: #ff0099}
+
+#separator{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#title{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#content{
+	margin-top: 100px;
+	margin-left: 10%;
+}
+
+#intro h1{
+	margin-bottom: 18px;
+}
+
+#intro h3{
+	color: #ff0099;
+	margin-bottom: 10px;
+}
+
+#riddles div{
+	margin-bottom: 30px;
+}
+
+#riddles h3{
+	margin-bottom: 10px;
+}
